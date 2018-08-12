@@ -1,0 +1,741 @@
+(1
+ (ace-jump-mode . [
+		(20140616 115) nil "a quick cursor location minor mode for emacs" single])
+ (ag . [
+     (20180225 240)
+     (
+      (dash
+       (2 8 0))
+      (s
+       (1 9 0))
+      (cl-lib
+       (0 5))) "A front-end for ag ('the silver searcher'), the C ack replacement." single])
+ (aggressive-indent . [
+		    (20180626 1721)
+		    (
+		     (emacs
+		      (24 1))
+		     (cl-lib
+		      (0 5))) "Minor mode to aggressively keep your code always indented" single])
+ (anaconda-mode . [
+		(20180707 1010)
+		(
+		 (emacs
+		  (25))
+		 (pythonic
+		  (0 1 0))
+		 (dash
+		  (2 6 0))
+		 (s
+		  (1 9))
+		 (f
+		  (0 16 2))) "Code navigation, documentation lookup and completion for Python" single])
+ (async . [
+	(20180527 1030) nil "Asynchronous processing in Emacs" tar])
+ (auto-complete . [
+		(20170124 1845)
+		(
+		 (popup
+		  (0 5 0))
+		 (cl-lib
+		  (0 5))) "Auto Completion for GNU Emacs" tar])
+ (bbdb . [
+       (20180502 2038) nil "The Insidious Big Brother Database for GNU Emacs" tar])
+ (bind-key . [
+	   (20180512 2130) nil "A simple way to manage personal keybindings" single])
+ (caml . [
+       (20171209 1232) nil "OCaml code editing commands for Emacs" tar])
+ (cmake-ide . [
+	    (20180713 813)
+	    (
+	     (emacs
+	      (24 4))
+	     (cl-lib
+	      (0 5))
+	     (seq
+	      (1 11))
+	     (levenshtein
+	      (0))
+	     (s
+	      (1 11 0))) "Calls CMake to find out include paths and other compiler flags" single])
+ (cmake-mode . [
+	     (20180709 726) nil "major-mode for editing CMake sources" single])
+ (coffee-mode . [
+	      (20170324 240)
+	      (
+	       (emacs
+		(24 3))) "Major mode for CoffeeScript code" single])
+ (color-theme-modern . [
+		     (20161219 344)
+		     (
+		      (emacs
+		       (24))) "Reimplement colortheme with Emacs 24 theme framework." tar])
+ (company . [
+	  (20180704 701)
+	  (
+	   (emacs
+	    (24 3))) "Modular text completion framework" tar])
+ (company-anaconda . [
+		   (20180610 2321)
+		   (
+		    (company
+		     (0 8 0))
+		    (anaconda-mode
+		     (0 1 1))
+		    (cl-lib
+		     (0 5 0))
+		    (dash
+		     (2 6 0))
+		    (s
+		     (1 9))) "Anaconda backend for company-mode" single])
+ (company-c-headers . [
+		    (20170531 1330)
+		    (
+		     (emacs
+		      (24 1))
+		     (company
+		      (0 8))) "Company mode backend for C/C++ header files" single])
+ (company-coq . [
+	      (20180307 510)
+	      (
+	       (company-math
+		(1 1))
+	       (company
+		(0 8 12))
+	       (yasnippet
+		(0 11 0))
+	       (dash
+		(2 12 1))
+	       (cl-lib
+		(0 5))) "A collection of extensions for Proof General's Coq mode" tar])
+ (company-c-headers . [
+		    (20170531 1330)
+		    (
+		     (emacs
+		      (24 1))
+		     (company
+		      (0 8))) "Company mode backend for C/C++ header files" single])
+ (company-ghc . [
+	      (20170918 133)
+	      (
+	       (cl-lib
+		(0 5))
+	       (company
+		(0 8 0))
+	       (ghc
+		(5 4 0 0))
+	       (emacs
+		(24))) "company-mode ghc-mod backend" single])
+ (company-go . [
+	     (20170825 943)
+	     (
+	      (company
+	       (0 8 0))
+	      (go-mode
+	       (1 0 0))) "company-mode backend for Go (using gocode)" single])
+ (company-irony . [
+		(20170905 1346)
+		(
+		 (emacs
+		  (24 1))
+		 (company
+		  (0 8 0))
+		 (irony
+		  (1 1 0))
+		 (cl-lib
+		  (0 5))) "company-mode completion back-end for irony-mode" single])
+ (company-lsp . [
+	      (20180617 1033)
+	      (
+	       (emacs
+		(25 1))
+	       (lsp-mode
+		(3 4))
+	       (company
+		(0 9 0))
+	       (s
+		(1 2 0))
+	       (dash
+		(2 11 0))) "Company completion backend for lsp-mode." single])
+ (company-math . [
+	       (20171016 814)
+	       (
+		(company
+		 (0 8 0))
+		(math-symbol-lists
+		 (1 2))) "Completion backends for unicode math symbols and latex tags" single])
+ (company-rtags . [
+		(20170924 2244)
+		(
+		 (emacs
+		  (24 3))
+		 (company
+		  (0 8 1))
+		 (rtags
+		  (2 10))) "RTags back-end for company" single])
+ (connection . [
+	     (20140717 2029) nil "TCP-based client connection" single])
+ (counsel . [
+	  (20180713 946)
+	  (
+	   (emacs
+	    (24 3))
+	   (swiper
+	    (0 9 0))) "Various completion functions using Ivy" single])
+ (darkokai-theme . [
+		 (20180513 1857) nil "A darker variant on Monokai." single])
+ (dash . [
+       (20180413 30) nil "A modern list library for Emacs" single])
+ (dash-functional . [
+		  (20180107 818)
+		  (
+		   (dash
+		    (2 0 0))
+		   (emacs
+		    (24))) "Collection of useful combinators for Emacs Lisp" single])
+ (deferred . [
+   (20170901 630)
+   (
+    (emacs
+     (24 4))) "Simple asynchronous functions for emacs lisp" single])
+ (dictionary . [
+	     (20140717 2029)
+	     (
+	      (connection
+	       (1 10))
+	      (link
+	       (1 10))) "Client for rfc2229 dictionary servers" single])
+ (disaster . [
+	   (20171016 1452) nil "Disassemble C/C++ code under cursor in Emacs" single])
+ (ein . [
+      (20180626 1257)
+      (
+       (websocket
+	(1 7))
+       (auto-complete
+	(1 4 0))
+       (request
+	(0 3))
+       (deferred
+	   (0 5))
+       (request-deferred
+	(0 2 0))
+       (cl-generic
+	(0 3))
+       (dash
+	(2 13 0))
+       (s
+	(1 11 0))
+       (skewer-mode
+	(1 6 2))) "Emacs IPython Notebook" tar])
+ (emamux . [
+	 (20170226 1937)
+	 (
+	  (emacs
+	   (24 3))) "Interact with tmux" single])
+ (emmet-mode . [
+	     (20180612 2041) nil "Unofficial Emmet's support for emacs" single])
+ (engine-mode . [
+	      (20180401 946)
+	      (
+	       (cl-lib
+		(0 5))) "Define and query search engines from within Emacs." single])
+ (enh-ruby-mode . [
+		(20180403 1251)
+		(
+		 (emacs
+		  (24))) "Major mode for editing Ruby files" tar])
+ (epl . [
+      (20180205 1249)
+      (
+       (cl-lib
+	(0 3))) "Emacs Package Library" single])
+ (esxml . [
+	(20171129 7) nil "Library for working with xml via esxml and sxml" tar])
+ (expand-region . [
+		(20180625 939) nil "Increase selected region by semantic units." tar])
+ (f . [
+    (20180106 122)
+    (
+     (s
+      (1 7 0))
+     (dash
+      (2 2 0))) "Modern API for working with files and directories" single])
+ (faceup . [
+	 (20170925 1246) nil "Markup language for faces and font-lock regression testing" single])
+ (flycheck . [
+	   (20180614 1235)
+	   (
+	    (dash
+	     (2 12 1))
+	    (pkg-info
+	     (0 4))
+	    (let-alist
+		(1 0 4))
+	    (seq
+	     (1 11))
+	    (emacs
+	     (24 3))) "On-the-fly syntax checking" tar])
+ (flycheck-irony . [
+		 (20180604 1452)
+		 (
+		  (emacs
+		   (24 1))
+		  (flycheck
+		   (0 22))
+		  (irony
+		   (0 2 0))) "Flycheck: C/C++ support via Irony" single])
+ (flycheck-rtags . [
+		 (20180619 124)
+		 (
+		  (emacs
+		   (24))
+		  (flycheck
+		   (0 23))
+		  (rtags
+		   (2 10))) "RTags Flycheck integration." single])
+ (geiser . [
+	 (20180626 440) nil "GNU Emacs and Scheme talk to each other" tar])
+ (ggtags . [
+	 (20180418 657)
+	 (
+	  (emacs
+	   (24))
+	  (cl-lib
+	   (0 5))) "emacs frontend to GNU Global source code tagging system" single])
+ (ghc . [
+      (20180121 418)
+      (
+       (haskell-mode
+	(13 0))) "Sub mode for Haskell mode" tar])
+ (ghub . [
+       (20180715 1159)
+       (
+	(emacs
+	 (24 4))
+	(let-alist
+	    (1 0 5))) "minuscule client library for the Github API" tar])
+ (git-commit . [
+	     (20180713 1444)
+	     (
+	      (emacs
+	       (25 1))
+	      (dash
+	       (20180413))
+	      (with-editor
+		  (20180414))) "Edit Git commit messages" single])
+ (gnuplot-mode . [
+	       (20171013 916) nil "Major mode for editing gnuplot scripts" single])
+ (go-mode . [
+	  (20180327 830) nil "Major mode for the Go programming language" single])
+ (gotham-theme . [
+	       (20171013 1216) nil "A very dark Emacs color theme." single])
+ (haskell-mode . [
+	       (20180601 143)
+	       (
+		(emacs
+		 (24 3))) "A Haskell editing mode" tar])
+ (hindent . [
+	  (20180518 202)
+	  (
+	   (cl-lib
+	    (0 5))) "Indent haskell code using the \"hindent\" program" single])
+ (hlint-refactor . [
+		 (20170817 2148) nil "Apply HLint suggestions" single])
+ (htmlize . [
+	  (20180412 1244) nil "Convert buffer text and decorations to HTML." single])
+ (hydra . [
+	(20180703 802)
+	(
+	 (cl-lib
+	  (0 5))) "Make bindings that stick around." tar])
+ (irony . [
+	(20180703 1040)
+	(
+	 (cl-lib
+	  (0 5))
+	 (json
+	  (1 2))) "C/C++ minor mode powered by libclang" tar])
+ (isend-mode . [
+	     (20171118 745) nil "Interactively send parts of an Emacs buffer to an interpreter" single])
+ (ivy . [
+      (20180716 923)
+      (
+       (emacs
+	(24 1))) "Incremental Vertical completYon" tar])
+ (ivy-hydra . [
+	    (20180614 1500)
+	    (
+	     (emacs
+	      (24 1))
+	     (ivy
+	      (0 9 0))
+	     (hydra
+	      (0 13 4))) "Additional key bindings for Ivy" single])
+ (ivy-rtags . [
+	    (20170522 2154)
+	    (
+	     (ivy
+	      (0 7 0))
+	     (rtags
+	      (2 10))) "RTags completion back-end for ivy" single])
+ (javadoc-lookup . [
+		 (20160213 1631)
+		 (
+		  (cl-lib
+		   (0 3))) "Javadoc Emacs integration with Maven" tar])
+ (js-comint . [
+	    (20171129 2056)
+	    (
+	     (emacs
+	      (24 3))) "JavaScript interpreter in window." single])
+ (js2-mode . [
+	   (20180627 744)
+	   (
+	    (emacs
+	     (24 1))
+	    (cl-lib
+	     (0 5))) "Improved JavaScript editing mode" tar])
+ (julia-mode . [
+	     (20171116 642) nil "Major mode for editing Julia source code" single])
+ (langtool . [
+	   (20180409 316)
+	   (
+	    (cl-lib
+	     (0 3))) "Grammar check utility using LanguageTool" single])
+ (ledger-mode . [
+	      (20180705 138)
+	      (
+	       (emacs
+		(24 3))) "Helper code for use with the \"ledger\" command-line tool" tar])
+ (levenshtein . [
+	      (20090830 340) nil "Edit distance between two strings." single])
+ (link . [
+       (20140717 2029) nil "Hypertext links in text buffers" single])
+ (load-relative . [
+		(20170526 310) nil "relative file load (within a multi-file Emacs package)" tar])
+ (loc-changes . [
+	      (20160801 1008) nil "keep track of positions even after buffer changes" single])
+ (lsp-mode . [
+	   (20180708 1914)
+	   (
+	    (emacs
+	     (25 1))) "Minor mode for interacting with Language Servers" tar])
+ (lsp-ui . [
+	 (20180618 1951)
+	 (
+	  (emacs
+	   (25 1))
+	  (dash
+	   (2 13))
+	  (dash-functional
+	   (1 2 0))
+	  (flycheck
+	   (31))
+	  (lsp-mode
+	   (4 0))
+	  (markdown-mode
+	   (2 3))) "UI modules for lsp-mode" tar])
+ (macrostep . [
+	    (20161120 1306)
+	    (
+	     (cl-lib
+	      (0 5))) "interactive macro expander" tar])
+ (magit . [
+	(20180714 1858)
+	(
+	 (emacs
+	  (25 1))
+	 (async
+	  (20180527))
+	 (dash
+	  (20180413))
+	 (ghub
+	  (20180417))
+	 (git-commit
+	  (20180602))
+	 (magit-popup
+	  (20180509))
+	 (with-editor
+	     (20180414))) "A Git porcelain inside Emacs." tar])
+ (magit-popup . [
+	      (20180618 1602)
+	      (
+	       (emacs
+		(24 4))
+	       (async
+		(1 9 2))
+	       (dash
+		(2 13 0))) "Define prefix-infix-suffix command combos" tar])
+ (markdown-mode . [
+		(20180707 555)
+		(
+		 (emacs
+		  (24 4))
+		 (cl-lib
+		  (0 5))) "Major mode for Markdown-formatted text" single])
+ (math-symbol-lists . [
+		    (20170221 553) nil "Lists of Unicode math symbols and latex commands" tar])
+ (merlin . [
+	 (20180214 242) nil "Mode for Merlin, an assistant for OCaml." tar])
+ (minizinc-mode . [
+		(20180201 650)
+		(
+		 (emacs
+		  (24 1))) "Major mode for MiniZinc code" single])
+ (multiple-cursors . [
+		   (20180615 518)
+		   (
+		    (cl-lib
+		     (0 5))) "Multiple cursors for Emacs." tar])
+ (nasm-mode . [
+	    (20180711 1209)
+	    (
+	     (emacs
+	      (24 3))) "NASM x86 assembly major mode" single])
+ (nix-mode . [
+	   (20180629 1501)
+	   (
+	    (emacs
+	     (24 3))) "Major mode for editing .nix files" tar])
+ (notmuch . [
+	  (20180503 1659) nil "run notmuch within emacs" tar])
+ (org              . [
+		   (20180723) ( ) "Outline-based notes management and organizer" tar])
+ (org-plus-contrib . [
+		   (20180723) ( ) "Outline-based notes management and organizer" tar])
+ (org-web-tools . [
+		(20180531 1808)
+		(
+		 (emacs
+		  (25 1))
+		 (org
+		  (9 0))
+		 (dash
+		  (2 12))
+		 (esxml
+		  (0 3 4))
+		 (s
+		  (1 10 0))) "Display and capture web content with Org-mode" single])
+ (paredit . [
+	  (20171126 1805) nil "minor mode for editing parentheses" single])
+ (pinentry .
+	   [(0 1)
+	   nil "GnuPG Pinentry server implementation" single
+	   ((:url . "http://elpa.gnu.org/packages/pinentry.html")
+	    (:keywords "gnupg"))])
+ (package-lint . [
+	       (20180608 2119)
+	       (
+		(cl-lib
+		 (0 5))
+		(emacs
+		 (24))) "A linting library for elisp package authors" tar])
+ (pandoc-mode . [
+	      (20180710 746)
+	      (
+	       (hydra
+		(0 10 0))
+	       (dash
+		(2 10 0))) "Minor mode for interacting with Pandoc" tar])
+ (pkg-info . [
+	   (20150517 443)
+	   (
+	    (epl
+	     (0 8))) "Information about packages" single])
+ (plantuml-mode . [
+		(20170819 1033) nil "Major mode for PlantUML" single])
+ (polymode . [
+	   (20170307 322)
+	   (
+	    (emacs
+	     (24))) "Versatile multiple modes with extensive literate programming support" tar])
+ (popup . [
+	(20160709 729)
+	(
+	 (cl-lib
+	  (0 5))) "Visual Popup User Interface" single])
+ (powerline . [
+	    (20180321 1948)
+	    (
+	     (cl-lib
+	      (0 2))) "Rewrite of Powerline" tar])
+ (pug-mode . [
+	   (20180513 1426)
+	   (
+	    (emacs
+	     (24 4))
+	    (cl-lib
+	     (0 5))) "Major mode for jade/pug template files" single])
+ (pyenv-mode . [
+	     (20170801 1648)
+	     (
+	      (pythonic
+	       (0 1 0))) "Integrate pyenv with python-mode" single])
+ (pythonic . [
+	   (20180624 2212)
+	   (
+	    (emacs
+	     (25))
+	    (s
+	     (1 9))
+	    (f
+	     (0 17 2))) "Utility functions for writing pythonic emacs package." single])
+ (racket-mode . [
+	      (20180629 1144)
+	      (
+	       (emacs
+		(24 3))
+	       (faceup
+		(0 0 2))
+	       (s
+		(1 9 0))) "Major mode for Racket language." tar])
+ (realgud . [
+	  (20180710 1953)
+	  (
+	   (load-relative
+	    (1 2))
+	   (loc-changes
+	    (1 2))
+	   (test-simple
+	    (1 2 0))
+	   (cl-lib
+	    (0 5))
+	   (emacs
+	    (24))) "A modular front-end for interacting with external debuggers" tar])
+ (request . [
+	  (20170131 1747)
+	  (
+	   (emacs
+	    (24 4))) "Compatible layer for URL request in Emacs" single])
+ (request-deferred . [
+		   (20160419 1605)
+		   (
+		    (deferred
+			(0 3 1))
+		    (request
+		     (0 2 0))) "Wrap request.el by deferred" single])
+ (rg . [
+     (20180626 1041)
+     (
+      (cl-lib
+       (0 5))
+      (emacs
+       (24 3))
+      (s
+       (1 10 0))) "A search tool based on ripgrep." tar])
+ (rtags . [
+	(20180619 823) nil "A front-end for rtags" single])
+ (rust-mode . [
+	    (20180626 1512)
+	    (
+	     (emacs
+	      (24 0))) "A major emacs mode for editing Rust source code" single])
+ (s . [
+    (20180406 108) nil "The long lost Emacs string manipulation library." single])
+ (sage-shell-mode . [
+		  (20180215 35)
+		  (
+		   (cl-lib
+		    (0 6 1))
+		   (emacs
+		    (24 4))
+		   (let-alist
+		       (1 0 5))
+		   (deferred
+		       (0 5 1))) "A front-end for Sage Math" tar])
+ (shm . [
+      (20180326 1757) nil "Structured Haskell Mode" tar])
+ (simple-httpd . [
+	       (20180528 903)
+	       (
+		(cl-lib
+		 (0 3))) "pure elisp HTTP server" single])
+ (skewer-mode . [
+	      (20180706 1107)
+	      (
+	       (simple-httpd
+		(1 4 0))
+	       (js2-mode
+		(20090723))
+	       (emacs
+		(24))) "live browser JavaScript, CSS, and HTML interaction" tar])
+ (slime . [
+	(20180701 1344)
+	(
+	 (cl-lib
+	  (0 5))
+	 (macrostep
+	  (0 9))) "Superior Lisp Interaction Mode for Emacs" tar])
+ (swiper . [
+	 (20180713 946)
+	 (
+	  (emacs
+	   (24 1))
+	  (ivy
+	   (0 9 0))) "Isearch with an overview. Oh, man!" single])
+ (test-simple . [
+	      (20170527 832)
+	      (
+	       (cl-lib
+		(0))) "Simple Unit Test Framework for Emacs Lisp" single])
+ (tuareg . [
+	 (20180512 1306)
+	 (
+	  (caml
+	   (3 12 0 1))) "OCaml mode for Emacs." tar])
+ (undo-tree .
+	    [(0 6 5)
+	    nil "Treat undo history as a tree" single
+	    ((:url . "http://www.dr-qubit.org/emacs.php")
+	     (:keywords "convenience" "files" "undo" "redo" "history" "tree"))])
+ (use-package . [
+   (20180715 1101)
+   (
+    (emacs
+     (24 3))
+    (bind-key
+     (2 4))) "A configuration macro for simplifying your .emacs" tar])
+ (w3m . [
+      (20180404 2220) nil "an Emacs interface to w3m" tar])
+ (web-mode . [
+	   (20180628 422)
+	   (
+	    (emacs
+	     (23 1))) "major mode for editing web templates" single])
+ (websocket . [
+	    (20180422 1716)
+	    (
+	     (cl-lib
+	      (0 5))) "Emacs WebSocket client and server" single])
+ (with-editor . [
+   (20180618 1602)
+   (
+    (emacs
+     (24 4))
+    (async
+     (1 9))) "Use the Emacsclient as $EDITOR" tar])
+ (xcscope . [
+	  (20180426 12) nil "cscope interface for (X)Emacs" single])
+ (xref-js2 . [
+	   (20170530 126)
+	   (
+	    (emacs
+	     (25))
+	    (js2-mode
+	     (20150909))) "Jump to references/definitions using ag & js2-mode's AST" single])
+ (yaml-mode . [
+	    (20180408 2307)
+	    (
+	     (emacs
+	      (24 1))) "Major mode for editing YAML files" single])
+ (yasnippet . [
+	    (20180620 1750)
+	    (
+	     (cl-lib
+	      (0 5))) "Yet another snippet extension for Emacs." single])
+ (yasnippet-snippets . [
+		     (20180714 622)
+		     (
+		      (yasnippet
+		       (0 8 0))) "Collection of yasnippet snippets" tar]))
