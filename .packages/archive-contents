@@ -108,13 +108,6 @@
 		(2 12 1))
 	       (cl-lib
 		(0 5))) "A collection of extensions for Proof General's Coq mode" tar])
- (company-c-headers . [
-		    (20170531 1330)
-		    (
-		     (emacs
-		      (24 1))
-		     (company
-		      (0 8))) "Company mode backend for C/C++ header files" single])
  (company-ghc . [
 	      (20170918 133)
 	      (
