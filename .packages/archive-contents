@@ -493,6 +493,30 @@
 	     (24 3))) "Major mode for editing .nix files" tar])
  (notmuch . [
 	  (20180503 1659) nil "run notmuch within emacs" tar])
+ (ob-async . [
+	   (20180624 1553)
+	   (
+	    (async
+	     (1 9))
+	    (org-plus-contrib
+	     (9 0 1))
+	    (emacs
+	     (24 4))
+	    (dash
+	     (2 14 1))) "Asynchronous org-babel src block execution" single])
+ (ob-ipython . [
+	     (20180224 153)
+	     (
+	      (s
+	       (1 9 0))
+	      (dash
+	       (2 10 0))
+	      (dash-functional
+	       (1 2 0))
+	      (f
+	       (0 17 2))
+	      (emacs
+	       (24))) "org-babel functions for IPython evaluation" tar])
  (org              . [
 		   (20180723) ( ) "Outline-based notes management and organizer" tar])
  (org-plus-contrib . [
@@ -574,6 +598,8 @@
 	     (1 9))
 	    (f
 	     (0 17 2))) "Utility functions for writing pythonic emacs package." single])
+ (pyvenv . [
+	 (20180629 514) nil "Python virtual environment interface" single])
  (racket-mode . [
 	      (20180629 1144)
 	      (

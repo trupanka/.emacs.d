@@ -338,7 +338,7 @@
 (use-package org-protocol :demand)
 
 ;;; ORG-BABEL
-(use-package ob
+(use-package ob :demand
   :config
   (setq org-babel-languages
 	'((C . t)
@@ -359,6 +359,7 @@
           (org . t)
           (plantuml . t)
           (python . t)
+	  (ipython . t)
           (ruby . t)
 	  (scheme . t)
 	  (sed . t)
@@ -367,6 +368,14 @@
   (setq org-confirm-babel-evaluate nil)
   (setq org-plantuml-jar-path "/usr/share/plantuml/lib/plantuml.jar")
   (org-babel-do-load-languages 'org-babel-load-languages org-babel-languages))
+
+;;; OB-ASYNC
+(use-package ob-async :demand t
+  :after ob)
+
+;;; OB-IPYTHON
+(use-package ob-ipython :demand t
+  :after ob)
 
 ;;; OX
 (use-package ox :demand
@@ -394,12 +403,12 @@
 	      ("M-u m o" . org-mobile-webdav-push)
 	      ("M-u m i" . org-mobile-webdav-pull))
   :preface
-  (defun org-mobile-webdav-push (n)
-    (interactive "p")
+  (defun org-mobile-webdav-push ()
+    (interactive)
     (org-mobile-push)
     (async-shell-command "cadaver-push"))
-  (defun org-mobile-webdav-pull (n)
-    (interactive "p")
+  (defun org-mobile-webdav-pull ()
+    (interactive)
     (shell-command "cadaver-pull")
     (org-mobile-pull)))
 
@@ -413,8 +422,8 @@
   :bind (:map org-mode-map
 	      ("M-u C-d" . org-cleanup-pandoc-output))
   :preface
-  (defun org-cleanup-pandoc-output (n)
-    (interactive "p")
+  (defun org-cleanup-pandoc-output ()
+    (interactive)
     (org-web-tools--clean-pandoc-output)))
 
 ;;; PANDOC

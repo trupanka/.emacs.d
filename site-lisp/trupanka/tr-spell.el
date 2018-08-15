@@ -6,11 +6,6 @@
   (ispell-set-spellchecker-params)
   (ispell-hunspell-add-multi-dic "ru_RU,en_US"))
 
-;;; DICTIONARY
-(use-package dictionary
-  :config
-  (setq dictionary-server "localhost"))
-
 ;;; LANGTOOL
 (use-package langtool :disabled
   :config

@@ -23,7 +23,7 @@
 	      ("M-7" . previous-buffer)
 	      ("M-8" . next-buffer)
 	      ("M-9" . next-multiframe-window)
-	      ("M-s M-9" . previous-multiframe-window)
+	      ("M-u M-9" . previous-multiframe-window)
 	      ("M-s M-h" . help-command)
 	      ("M-s M-g" . gnus)
 	      ("C-x C-b" . bs-show)
@@ -70,5 +70,14 @@
 
 ;;; BROWSER
 (use-package trupanka/tr-browser :load-path "site-lisp")
+
+;;; DICTIONARY
+(use-package trupanka/tr-dict :load-path "site-lisp" :demand)
+
+(use-package dictionary
+  :bind (:map trupanka-mode-map
+	      ("M-u M-d" . dictionary-search)))
+
+(provide 'trupanka/tr-dict)
 
 (provide 'trupanka)

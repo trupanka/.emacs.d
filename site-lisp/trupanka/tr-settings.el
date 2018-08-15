@@ -13,6 +13,9 @@
 (setq indent-tabs-mode nil)
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;;; FILL
+(setq-default fill-column 80)
+
 ;;; EXIT
 (setq confirm-kill-process nil)
 (remove-hook 'kill-emacs-query-functions 'server-kill-emacs-query-functiona)

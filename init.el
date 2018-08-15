@@ -18,6 +18,7 @@
 (use-package trupanka/tr-asm :load-path "site-lisp")
 (use-package trupanka/tr-c++ :load-path "site-lisp")
 (use-package trupanka/tr-coq :load-path "site-lisp")
+(use-package trupanka/tr-dict :load-path "site-lisp")
 (use-package trupanka/tr-dired :load-path "site-lisp")
 (use-package trupanka/tr-ein :load-path "site-lisp")
 (use-package trupanka/tr-elisp :load-path "site-lisp")
