@@ -4,12 +4,6 @@
   (setq w3m-profile-directory "~/.emacs.d/.w3m")
   :config
   (setq w3m-confirm-leaving-secure-page nil)
-  :bind (:map w3m-mode-map
-	      ("M-u n" . w3m-next-buffer)
-	      ("M-u p" . w3m-previous-buffer)
-	      ("M-u s" . w3m-session-select)
-	      ("M-u d" . w3m-delete-buffer)
-	      ("M-u x" . w3m-close-window))
   :hook (w3m-mode . w3m-mode-setup)
   :preface
   (defun w3m-mode-setup ()

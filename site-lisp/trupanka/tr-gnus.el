@@ -27,4 +27,7 @@
 ;;; PINENTRY
 (use-package trupanka/tr-pinentry :load-path "site-lisp")
 
+;;; ATOM2RSS
+(use-package atom2rss :load-path "site-lisp/trupanka/scripts")
+
 (provide 'trupanka/tr-gnus)
