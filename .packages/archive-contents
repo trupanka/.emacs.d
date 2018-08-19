@@ -45,6 +45,28 @@
 	   (20180512 2130) nil "A simple way to manage personal keybindings" single])
  (caml . [
        (20171209 1232) nil "OCaml code editing commands for Emacs" tar])
+ (cider . [
+	(20180714 811)
+	(
+	 (emacs
+	  (25))
+	 (clojure-mode
+	  (5 7 0))
+	 (pkg-info
+	  (0 4))
+	 (queue
+	  (0 1 1))
+	 (spinner
+	  (1 7))
+	 (seq
+	  (2 16))
+	 (sesman
+	  (0 1 1))) "Clojure Interactive Development Environment that Rocks" tar])
+ (clojure-mode . [
+	       (20180709 648)
+	       (
+		(emacs
+		 (25 1))) "Major mode for Clojure code" single])
  (cmake-ide . [
 	    (20180713 813)
 	    (
@@ -600,6 +622,11 @@
 	     (0 17 2))) "Utility functions for writing pythonic emacs package." single])
  (pyvenv . [
 	 (20180629 514) nil "Python virtual environment interface" single])
+ (queue .
+	[(0 1 1)
+	nil "Queue data structure" single
+	((:url . "http://www.dr-qubit.org/emacs.php")
+	 (:keywords "extensions" "data structures" "queue"))])
  (racket-mode . [
 	      (20180629 1144)
 	      (
@@ -663,6 +690,11 @@
 		       (1 0 5))
 		   (deferred
 		       (0 5 1))) "A front-end for Sage Math" tar])
+ (sesman . [
+	 (20180628 659)
+	 (
+	  (emacs
+	   (25))) "Generic Session Manager" single])
  (shm . [
       (20180326 1757) nil "Structured Haskell Mode" tar])
  (simple-httpd . [
@@ -686,6 +718,11 @@
 	  (0 5))
 	 (macrostep
 	  (0 9))) "Superior Lisp Interaction Mode for Emacs" tar])
+ (spinner .
+	  [(1 7 3)
+	  nil "Add spinners and progress-bars to the mode-line for ongoing operations" single
+	  ((:url . "https://github.com/Malabarba/spinner.el")
+	   (:keywords "processes" "mode-line"))])
  (swiper . [
 	 (20180713 946)
 	 (

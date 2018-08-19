@@ -14,7 +14,8 @@
   (setq slime-lisp-host "localhost")
   :bind (:map slime-mode-map
               ("M-s h h" . hyperspec-lookup)
-              ("M-s M-e" . slime-macroexpand-all))
+              ("M-s e a" . slime-macroexpand-all)
+	      ("M-s e 1" . slime-macroexpand-1))
   :hook (lisp-mode . slime-mode))
 
 (use-package slime-repl
@@ -22,7 +23,8 @@
   :bind (:map slime-repl-mode-map
               ("M-s" . nil)
               ("M-s h h" . hyperspec-lookup)
-              ("M-s M-e" . slime-macroexpand-all)))
+              ("M-s e a" . slime-macroexpand-all)
+	      ("M-s e 1" . slime-macroexpand-1)))
 
 ;;; PAREDIT
 (use-package paredit :defer t
