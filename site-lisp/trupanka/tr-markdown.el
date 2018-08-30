@@ -9,7 +9,7 @@
   :hook (poly-markdown-mode . poly-markdown-setup)
   :preface
   (defun poly-markdown-setup ()
-    (setq browse-url-browser-function 'browse-url-firefox)))
+    (setq browse-url-browser-function 'browse-url-chromium)))
 
 ;;; PANDOC
 (use-package trupanka/tr-pandoc :load-path "site-lisp")

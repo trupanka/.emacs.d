@@ -12,7 +12,7 @@
   :hook (web-mode . web-mode-setup)
   :preface
   (defun web-mode-setup ()
-    (setq browse-url-browser-function 'browse-url-firefox)))
+    (setq browse-url-browser-function 'browse-url-chromium)))
 
 ;;; EMMET
 (use-package emmet-mode
@@ -22,5 +22,22 @@
 (use-package pug-mode
   :config
   (setq pug-tab-width 2))
+
+;;; SKEWER
+(use-package skewer-html
+  :after web-mode
+  :hook (web-mode . skewer-html-mode)
+  :hook (css-mode . skewer-css-mode))
+
+(use-package skewer-css
+  :after css-mode
+  :hook (css-mode . skewer-css-mode))
+
+;;; IMPATIENT
+(use-package impatient-mode
+  :config
+  (setq impatient-mode-delay 1e10)
+  :hook (web-mode . impatient-mode)
+  :hook (after-save . imp--update-buffer))
 
 (provide 'trupanka/tr-web)

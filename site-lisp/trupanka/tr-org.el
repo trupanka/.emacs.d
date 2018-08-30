@@ -311,7 +311,12 @@
 	   ((org-agenda-overriding-header "Active tasks")
 	    (org-agenda-tag-filter-preset '("+ACTIVE"))))
 	  ("A" "Active agenda" agenda ""
-           ((org-agenda-tag-filter-preset '("+ACTIVE"))))))
+           ((org-agenda-tag-filter-preset '("+ACTIVE"))))
+	  ("w" alltodo ""
+	   ((org-agenda-tag-filter-preset '("+@work"))
+	    (org-agenda-overriding-header "Work Tasks")))
+	  ("W" "Work agenda" agenda ""
+           ((org-agenda-tag-filter-preset '("+@work"))))))
   (setq org-clock-out-remove-zero-time-clocks t)
   (setq org-clock-sound "~/.local/share/sounds/freedesktop/stereo/complete.wav")
   (setq org-clock-persist t)

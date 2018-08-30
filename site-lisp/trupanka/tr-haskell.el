@@ -6,7 +6,7 @@
   :hook (haskell-mode . haskell-mode-setup)
   :preface
   (defun haskell-mode-setup ()
-    (setq browse-url-browser-function 'browse-url-firefox)))
+    (setq browse-url-browser-function 'browse-url-chromium)))
 
 ;;; GHC-MOD
 (use-package ghc

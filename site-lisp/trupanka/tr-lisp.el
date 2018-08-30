@@ -10,7 +10,7 @@
 (use-package slime
   :after lisp-mode
   :config
-  (setq slime-contribs '(slime-fancy))
+  (setq slime-contribs '(slime-fancy slime-asdf))
   (setq slime-lisp-host "localhost")
   :bind (:map slime-mode-map
               ("M-s h h" . hyperspec-lookup)

@@ -188,6 +188,21 @@
 		  (0 8 1))
 		 (rtags
 		  (2 10))) "RTags back-end for company" single])
+ (company-tern . [
+	       (20161004 1147)
+	       (
+		(company
+		 (0 8 0))
+		(tern
+		 (0 0 1))
+		(dash
+		 (2 8 0))
+		(dash-functional
+		 (2 8 0))
+		(s
+		 (1 9 0))
+		(cl-lib
+		 (0 5 0))) "Tern backend for company-mode" single])
  (connection . [
 	     (20140717 2029) nil "TCP-based client connection" single])
  (counsel . [
@@ -364,6 +379,15 @@
 	(
 	 (cl-lib
 	  (0 5))) "Make bindings that stick around." tar])
+ (impatient-mode . [
+		 (20180528 916)
+		 (
+		  (cl-lib
+		   (0 3))
+		  (simple-httpd
+		   (1 4 0))
+		  (htmlize
+		   (1 40))) "Serve buffers live over HTTP" tar])
  (irony . [
 	(20180703 1040)
 	(
@@ -730,6 +754,15 @@
 	   (24 1))
 	  (ivy
 	   (0 9 0))) "Isearch with an overview. Oh, man!" single])
+ (tern . [
+       (20170925 1333)
+       (
+	(json
+	 (1 2))
+	(cl-lib
+	 (0 5))
+	(emacs
+	 (24))) "Tern-powered JavaScript integration" single])
  (test-simple . [
 	      (20170527 832)
 	      (
